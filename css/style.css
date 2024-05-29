@@ -274,6 +274,9 @@ nav ul ul li,
     -o-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.275); 
     transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.275); /* easeOutBack */   
 }
+.sidepanel{
+    display: none;
+}
 
 .btn1 > i,
 .intro-img,
@@ -310,13 +313,7 @@ nav ul ul li,
 }
 
 
-{
-    -webkit-border-radius:5px;
-    -moz-border-radius:5px;
-    -ms-border-radius:5px;
-    -o-border-radius:5px;
-    border-radius:5px;
-}
+
 
 /*=============== Header ===============*/
 header {
