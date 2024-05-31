@@ -41,7 +41,7 @@
 .social-btn > li > a,
 .tp-bullets > div.selected
 {
-	background: #35af97;
+	background: #002157;
 }
 
 /*========== Font Color ==========*/
@@ -95,7 +95,7 @@ nav ul ul li:hover > a,
 .responsive-menu ul li:hover > i,
 .close-btn:hover
 {
-	color: #35af97;
+	color: #002157;
 }
 
 /*========== Border Color ==========*/
@@ -113,19 +113,19 @@ nav ul ul li:hover > a,
 .heartR,
 .heartL
 {
-	border-color: #35af97;
+	border-color: #002157;
 }
 
 /*========== Border Left Color ==========*/
 
 {
-	border-left-color: #35af97;
+	border-left-color: #002157;
 }
 
 /*========== Border Right Color ==========*/
 
 {
-	border-right-color: #35af97;
+	border-right-color: #002157;
 }
 
 /*========== Border Top Color ==========*/
@@ -133,11 +133,11 @@ nav ul ul li:hover > a,
 .wedplan-post.active,
 .pricing.active
 {
-	border-top-color: #35af97;
+	border-top-color: #002157;
 }
 
 /*========== Border Bottom Color ==========*/
 
 {
-	border-bottom-color: #35af97;
+	border-bottom-color: #002157;
 }

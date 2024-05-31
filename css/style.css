@@ -311,7 +311,9 @@ nav ul ul li,
     -o-border-radius:50%;
     border-radius:50%;
 }
-
+.audio-play{
+    display: none;
+}
 
 
 
@@ -351,6 +353,11 @@ header {
     font-size: 16px;
     letter-spacing: 0.75px;
     line-height: 65px;
+}
+.for-contact a{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 5px;
 }
 .social-btns {
     float: right;
@@ -3396,7 +3403,7 @@ blockquote > p {
     box-shadow: 0 0 18px rgba(92, 92, 92, 0.27);
 }
 .title2 {
-    background: rgba(0, 33, 87, 0.9) none repeat scroll 0 0;
+    background: rgb(213 217 224 / 90%) none repeat scroll 0 0;
     left: 50%;
     max-width: 560px;
     padding: 65px 70px;
@@ -3449,9 +3456,9 @@ blockquote > p {
     background: #000 none repeat scroll 0 0;
     color: #fff;
     display: inline-block;
-    height: 112px;
-    line-height: 112px;
-    width: 112px;
+    height: 60px;
+    line-height: 60px;
+    width: 60px;
 }
 .service-box > h2 {
     color: #002157;
@@ -4300,7 +4307,7 @@ blockquote > p {
 .color-picker .color8 {background: #c2a772 none repeat scroll 0 0;}
 .color-picker .color9 {background: #e7512f none repeat scroll 0 0;}
 .color-picker .color10 {background: #fa3aab none repeat scroll 0 0;}
-.color-picker .color11 {background: #35af97 none repeat scroll 0 0;}
+.color-picker .color11 {background: #002157 none repeat scroll 0 0;}
 .color-picker .color12 {background: #e77421 none repeat scroll 0 0;}
 
 .event-tabs .event-title, 
@@ -4369,9 +4376,6 @@ blockquote > p {
 }
 
 
-{
-    background:#f66b88 !important;
-}
 
 /*========== Font Color ==========*/
 .logomenu-sec > ul > li:hover > a,
@@ -4452,15 +4456,10 @@ nav ul ul li:hover > a,
 
 /*========== Border Left Color ==========*/
 
-{
-    border-left-color: #f66b88;
-}
 
 /*========== Border Right Color ==========*/
 
-{
-    border-right-color: #f66b88;
-}
+
 
 /*========== Border Top Color ==========*/
 .wedplan-post:hover,
